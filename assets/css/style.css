@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* common */
+
+.f-Poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.f-Volkhov {
+    font-family: 'Volkhov', serif;
+
+}
+
+.font-cl {
+    color: #5E6282;
+}
+
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px !important;
+}
+
+.fs-50 {
+    font-size: 50px !important;
+}
+
+.fs-80 {
+    font-size: 80px !important;
+}
+
+.fs-84 {
+    font-size: 84px !important;
+}
+
+.h-80 {
+    height: 80px !important;
+}
+
+.mt-60 {
+    margin-top: 60px !important;
+}
+
+.mt-68 {
+    margin-top: 68px !important;
+}
+
+.mt-105 {
+    margin-top: 105px !important;
+}
+
+.pt-80 {
+    padding-top: 80px !important;
+}
+
+.pt-105 {
+    padding-top: 105px !important;
+}
+
+.px-200 {
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.py-80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+
+.w-80 {
+    width: 80px !important;
+}
+
+
+
+
+
+
+
+
+
+.hero {
+    /* height: 1000px; */
+    
+
+}
+
+.header {
+    position: relative;
+}
+
+.header .header-img {    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+}
+
+
+/* hero */
+
+.header-content {
+    position: relative;
+}
+
+.header-content .underline {
+    position: absolute;
+    top: 120px; 
+    right: 0;
+    z-index: -1;
+}
+
+
+
+/* service */
+
+.text-sub-heading {
+    opacity: 0.5;
+    font-size: 18px;
+}
+
+.text-heading {
+    margin-top: 4px;
+    font-family: 'Volkhov', serif;
+    font-size: 50px;
+}
+
+.service-heading {
+    position: relative;
+}
+
+.service-item:hover {
+    transform: scale(1.2);
+}
+
+.service .service-img {
+    position: absolute;
+    top: 105;
+    right: -80px;
+}
+
+.red-hover {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: none;
+    left: -50px;
+    bottom: -50px;
+    z-index: -1;
+}
+
+.service-item:hover .red-hover {
+    display: block;
+}
+
+/* destination */
+
+.destinations {
+   
+
+}
+
+.destinations-item {
+    border-radius: 15px;
+
+}
+
+.destinations-img-italy {
+    background: url(/assets/img/destinations/italy.png) center/ cover no-repeat;
+    height: 480px;
+
+}
+
+.destinations-img-italy:hover {
+    opacity: 0.5;
+}
+
+.destinations-img-london {
+    background: url(/assets/img/destinations/london.png) center/ cover no-repeat;
+    height: 480px;
+}
+.destinations-img-london:hover {
+    opacity: 0.5;
+}
+.destinations-img-europe {
+    background: url(/assets/img/destinations/europe.png) center/ cover no-repeat;
+    height: 480px;
+}
+.destinations-img-europe:hover {
+    opacity: 0.5;
+}
+
+.destinations-item-info {
+    background-color: #fff;    
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0 0 15px 15px;
+
+}
+
+/* booktrip */
+.booktrip {
+}
+
+/* testimonials */
+
+.testimonials {
+    /* height: 1000px; */
+}
+
+.testimonials-item {
+    height: 300px;
+}
+
+.btn-indicators {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    z-index: 1  ;
+}
+
+/* subcribe */
+
+.subcribe {
+    height: 400px;
+}
+
+
+
+
+
+
