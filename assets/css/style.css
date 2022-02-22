@@ -35,6 +35,14 @@ body {
     font-size: 20px !important;
 }
 
+.fs-21 {
+    font-size: 21px !important;
+}
+
+.fs-44 {
+    font-size: 44px;
+}
+
 .fs-50 {
     font-size: 50px !important;
 }
@@ -128,7 +136,7 @@ body {
 .header-content .underline {
     position: absolute;
     top: 120px; 
-    right: 0;
+    right: -80px;
     z-index: -1;
 }
 
@@ -222,6 +230,15 @@ body {
 
 }
 
+.destinations .destinations-desktop {
+    width: 100px;
+    height: 250px;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    z-index: -1;
+}
+
 /* booktrip */
 .booktrip {
 }
@@ -246,7 +263,8 @@ body {
 /* subcribe */
 
 .subcribe {
-    height: 400px;
+    height: auto;
+
 }
 
 .subcribe-bg {
@@ -265,5 +283,14 @@ body {
     top: 300px;
     z-index: -1;
 }
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
 
 
