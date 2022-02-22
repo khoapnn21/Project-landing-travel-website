@@ -249,8 +249,21 @@ body {
     height: 400px;
 }
 
+.subcribe-bg {
+    background-color: #DFD7F9;
+    border-radius: 100px 10px 10px;
+}
 
+.subcribe-img {
+    top: -30px;
+    right: -30px;
+}
 
-
+.subcribe-img-bg {
+    position: absolute;
+    right: -30px;
+    top: 300px;
+    z-index: -1;
+}
 
 
