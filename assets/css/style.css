@@ -196,7 +196,7 @@ body {
 }
 
 .destinations-img-italy {
-    background: url(./assets/img/destinations/italy.png) center/ cover no-repeat;
+    background: url(../img/destinations/italy.png) center/ cover no-repeat;
     height: 480px;
 
 }
@@ -206,14 +206,14 @@ body {
 }
 
 .destinations-img-london {
-    background: url(./assets/img/destinations/london.png) center/ cover no-repeat;
+    background: url(../img/destinations/london.png) center/ cover no-repeat;
     height: 480px;
 }
 .destinations-img-london:hover {
     opacity: 0.5;
 }
 .destinations-img-europe {
-    background: url(./assets/img/destinations/europe.png) center/ cover no-repeat;
+    background: url(../img/destinations/europe.png) center/ cover no-repeat;
     height: 480px;
 }
 .destinations-img-europe:hover {
