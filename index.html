@@ -9,18 +9,18 @@
     <link rel="stylesheet" href="./assets/css/style.css">    
     <link href="https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Volkhov:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@500&family=Volkhov:wght@700&display=swap" rel="stylesheet">
     <title>Jadoo</title>
 </head>
-<body>
+<body class="mobile tablet pc ">
+
+
     <!-- start-hero -->
-    <div class="hero">
-        
-        <!-- start-header -->
-        <div class="header w-100 ">              
-            <img src="./assets/img/header content/header-desktop.png" alt="" class="header-img"> 
-            
-            <nav class="navbar navbar-expand-lg navbar-light pt-5" >
-                <div class="container-md" >
+    <section class="hero "> 
+        <div class="hero__img">
+            <img src="./assets/img/hero/hero__img--bg.png" alt="" class="hero__img--bg">                     
+            <nav class="navbar navbar-expand-lg navbar-light pt-5  " >
+                <div class="container " >
                     <a class="navbar-brand " href="#" >
                         <img src="./assets/img/brand/Jadoo.png" alt=""  >
                     </a>
@@ -59,101 +59,108 @@
                         </ul>
                     </div>
                 </div>
-            </nav>         
-        <!-- end-header -->
+            </nav> 
 
-        <!-- start-header-content -->
-                <div class="container mt-105 justify-content-center" >
-                    <div class="row align-items-center "> 
-                        <div class="col-12 col-lg-6 my-2 header-content" style="position: relative;">
-                            <p style="color:#DF6951;" class="fs-20 fw-bold position-relative ">Best Destinations around the world
+            <div class="container mt-105 justify-content-center hero__item--content" >
+                <div class="row align-items-center "> 
+                    <div class="col-12 col-lg-6 my-2 " >
+                        <div class="row">
+                            <p  class=" my-3 fw-bold hero__sub-heading ">Best Destinations around the world </p>                                
+                            <p class=" py-3 hero__heading  display-5 "> Travel, enjoy and live a new and full life
+                                <img src="./assets/img/hero/hero__img--underline.png" alt="" class="hero__img--underline d-none d-xl-block ">
                             </p>
-                                
-                            <p style="color:#181E4B; " class="fs-84 f-Volkhov lh-sm"> Travel, <span>enjoy <img src="./assets/img/header content/underline.png" alt="" class="underline d-none d-xl-block "  > </span>  and live a new and full life</p>
-                            <p>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
-                            <a href="" role="button" class="btn btn-warning btn-lg shadow" style="color:#fff;"">Find out more</a>
-                            <a href="" role="button" class="btn btn-outline-danger btn-lg border-0 shadow" >
-                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                                </svg>
-                                Play demo
-                            </a>
+                            <p class="">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
+                        </div>   
+                        <div class="row gap-3">
+                            <div class="col-12 col-md-5 col-lg-5 ">
+                                <a href="" role="button" class="btn btn-warning btn-lg shadow fs-18 f-OpenSans fw-500 w-100" style="color:#fff;line-height: 40px;">Find out more</a>
+                            </div>
+                            <div class="col-12 col-md-5 col-lg-5 ">
+                                <button href="" type="button" class="btn w-100 p-0" style="color: #686D77;" >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="currentColor" class="bi bi-play-circle-fill shadow " viewBox="0 0 16 16">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                                    </svg>
+                                    Play demo 
+                                </button>
+                            </div>
                             
-                        </div>
-                        <div class="col-lg-6 my-2 d-none d-lg-block" >
-                            <img src="./assets/img/header content/header-content-img.png" alt=" header-image" class="w-100">
+                        </div>                    
+                        
+                    </div>
+                    <div class="col-lg-6 my-3 d-none d-lg-block" >
+                        <img src="./assets/img/hero/hero__img--thegirl.png" alt=" header-image" class="w-100">
 
-                        </div>
                     </div>
                 </div>
-        </div>  
-        <!-- end-header-content -->
-    </div>
+            </div>
+        </div>
+    </section>
     <!-- end-hero -->
 
     <!-- star-service -->    
     <section class="service">
-        <div class="container mt-105  service-heading text-center position-relative" >
+        <div class="container mt-105 text-center position-relative" >
             
-            <img src="./assets/img/service/desktop-service.png" alt="" class="service-img d-none d-md-block">            
+            <img src="./assets/img/service/desktop-service.png" alt="" class="service__img-bg d-none d-md-block">            
             
             <div class="row  ">                 
-                    <p class="text-sub-heading">CATEGORY</p>
-                    <p class="text-heading">We Offer Best Services</p>    
+                    <p class="service__sub-heading text-uppercase">category</p>
+                    <p class="service__heading">We Offer Best Services</p>    
 
             </div>
-            <div class="row  mt-68  ">
-                <div class="col-12 col-md-3  my-2 service-item ">
-                    <div class="card w-100 align-items-center justify-content-center border-0 shadow " style="width:250px" >
-                        <img src="./assets/img/service/calculated weather.png" class="card-img-top w-80 h-80  " alt="service1">
+            <div class="row  mt-68 ">
+                <div class="col-6 col-lg-3  my-5 service__item ">
+                    <div class="card w-100 align-items-center justify-content-center border-0  " >
+                        <img src="./assets/img/service/calculated weather.png" class=" w-80 h-80 my-3 " alt="service1">
                         <div class="card-body">
                             <h5 class="card-title">Calculated Weather                    
                             </h5>
                             <p class="card-text mt-4">Built Wicket longer admire do barton vanity itself do in it.</p>
                         </div>
-                        <div class="red-hover">
+                        <div class="service__img--red">
                             <img src="./assets/img/service/red-hover.png" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3  my-2 service-item ">
-                    <div class="card w-100 align-items-center justify-content-center border-0 shadow" style="width:250px" >
-                        <img src="./assets/img/service/plan.png" class="card-img-top w-80 h-80   " alt="service1">
+                <div class="col-6 col-lg-3  my-5 service__item ">
+                    <div class="card w-100 align-items-center justify-content-center border-0 " >
+                        <img src="./assets/img/service/plan.png" class=" w-80 h-80 my-3   " alt="service1">
                         <div class="card-body">
                             <h5 class="card-title">Best Flights                
                             </h5>
                             <p class="card-text mt-4">Engrossed listening. Park gate sell they west hard for the.</p>
                         </div>
-                        <div class="red-hover">
+                        <div class="service__img--red">
                             <img src="./assets/img/service/red-hover.png" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3  my-2 service-item  ">
-                    <div class="card w-100 align-items-center justify-content-center border-0 shadow" style="width:250px" >
-                        <img src="./assets/img/service/micro.png" class="card-img-top w-80 h-80  " alt="service1">
+                <div class="col-6 col-lg-3  my-5 service__item  ">
+                    <div class="card  w-100 align-items-center justify-content-center border-0 " >
+                        <img src="./assets/img/service/micro.png" class=" w-80 h-80 my-3  " alt="service1">
                         <div class="card-body">
                             <h5 class="card-title">Local Events            
                             </h5>
                             <p class="card-text mt-4">Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
                         </div>
-                        <div class="red-hover">
+                        <div class="service__img--red">
                             <img src="./assets/img/service/red-hover.png" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3  my-2 service-item ">
-                    <div class="card w-100 align-items-center justify-content-center border-0 shadow" style="width:250px" >
-                        <img src="./assets/img/service/setting.png" class="card-img-top w-80 h-80  " alt="service1">
+                <div class="col-6 col-lg-3  my-5 service__item ">
+                    <div class="card w-100 align-items-center justify-content-center border-0 " >
+                        <img src="./assets/img/service/setting.png" class=" w-80 h-80 my-3  " alt="service1">
                         <div class="card-body">
                             <h5 class="card-title">Customization                
                             </h5>
                             <p class="card-text mt-4">We deliver outsourced aviation services for military customers</p>
                         </div>
-                        <div class="red-hover">
+                        <div class="service__img--red">
                             <img src="./assets/img/service/red-hover.png" alt="">
                         </div>
                     </div>
+                    
                     
                 </div>
             </div>
@@ -163,65 +170,64 @@
 
     <!-- start-destinations -->
     <section class="destinations">
-        <div class="comtainer mt-105 position-relative">                    
-            <div class="row text-center ">                 
-                    <p class="text-sub-heading">Top Selling</p>
-                    <h1 class="text-heading">Top Destinations</h1>    
+        <div class="container mt-105 position-relative  ">                    
+            <div class="row text-center">                 
+                    <p class="destinations__sub-heading">Top Selling</p>
+                    <h1 class="destinations__heading">Top Destinations</h1>    
             </div>
-            <div class="row mt-60  justify-content-center">
-                <div class="col-12 col-lg-3 my-2 " >   
-                    <a href="">
-                        <div class="destinations-item destinations-img-italy position-relative shadow">
-                            <div class=" p-3 destinations-item-info">
-                                <div class="d-flex justify-content-between">
-                                    <span>Rome, Italty</span>
+            <div class="row mt-60 gap-3 flex-lg-nowrap ">
+                <div class="col-12 col-lg-4 my-2 " >                       
+                        <div class=" destinations-item destinations-img-italy position-relative shadow">
+                            <div class="destinations-item-info pb-5 p-3">
+                                <div class="d-flex justify-content-between my-4 destinations__sub-heading">
+                                    <span class="">Rome, Italty</span>
                                     <span>$5,42k</span>
                                 </div>
-                                <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+                                <span class="destinations__text--time ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill text-black me-3" viewBox="0 0 16 16">
                                         <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
                                     </svg>
                                     10 Days Trip
                                 </span>
                             </div>
                         </div>  
-                    </a>                  
+                                      
                 </div>   
-                <div class="col-12 col-lg-3 my-2 " >  
-                    <a href="">
-                        <div class="destinations-item destinations-img-london position-relative shadow">
-                            <div class=" p-3 destinations-item-info">
-                                <div class="d-flex justify-content-between">
-                                    <span>London, UK</span>
+                <div class="col-12 col-lg-4 my-2 " >   
+                    
+                        <div class="destinations-item destinations-img-london position-relative shadow ">
+                            <div class="destinations-item-info pb-5 p-3">
+                                <div class="d-flex justify-content-between my-4 destinations__sub-heading">
+                                    <span class="">London, UK</span>
                                     <span>$4.2k</span>
                                 </div>
-                                <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+                                <span class="destinations__text--time ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill text-black me-3" viewBox="0 0 16 16">
                                         <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
                                     </svg>
-                                    10 Days Trip
+                                    12 Days Trip
                                 </span>
                             </div>
-                        </div>          
-                    </a>           
-                </div> 
-                <div class="col-12 col-lg-3 my-2 " >   
-                    <a href="">
+                        </div>  
+                                      
+                </div>
+                <div class="col-12 col-lg-4 my-2 " >   
+                    
                         <div class="destinations-item destinations-img-europe position-relative shadow">
-                            <div class=" p-3 destinations-item-info">
-                                <div class="d-flex justify-content-between">
-                                    <span>Full Europe</span>
+                            <div class="destinations-item-info pb-5 p-3">
+                                <div class="d-flex justify-content-between my-4 destinations__sub-heading">
+                                    <span class="">Full Europe</span>
                                     <span>$15k</span>
                                 </div>
-                                <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+                                <span class="destinations__text--time ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill text-black me-3" viewBox="0 0 16 16">
                                         <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
                                     </svg>
-                                    10 Days Trip
+                                    28 Days Trip
                                 </span>
                             </div>
-                        </div>           
-                    </a>
+                        </div>  
+                                      
                 </div>
                 <img src="./assets/img/destinations/destinations-desktop.png" alt="" class="destinations-desktop d-none d-lg-block">
 
@@ -233,48 +239,46 @@
     <!-- start-Book a trip -->
     <section class="booktrip">
         <div class="container mt-105">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-12 col-lg-6">
-                    <p class="text-sub-heading">Easy and Fast</p>
-                    <p class="text-heading">Book your next trip in 3 easy steps</p>
-                    <div class="row align-items-center py-4 ">
-                        <div class="col col-1 ">
-                            <img src="./assets/img/booktrip/choose.png" alt="">
-                        </div>                        
-                        <div class="col col-6 w-75 ps-5 opacity-50 ">
-                            <a href="" class="text-decoration-none">
+            <div class="row align-items-center ">
+                <div class="col-12 col-lg-6 ms-0">
+                    <div class="row ">
+                        <p class="booktrip__sub-heading">Easy and Fast</p>
+                        <p class="booktrip__heading">Book your next trip in 3 easy steps</p>
+                    </div>                    
+                    <div class="row   ">
+                        <div class="col col-2">
+                            <img src="./assets/img/booktrip/choose.png" alt="" class="booktrip__img--icon" >
+
+                        </div>
+                        <div class="col col-9 booktrip__text ">
                                 <span class="fw-bold ">Choose Destination</span>
                                 <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
-                            </a>                            
                         </div>                        
                     </div>
-                    <div class="row align-items-center py-4 ">
-                        <div class="col col-1">
-                            <img src="./assets/img/booktrip/make.png" alt="">
+                    <div class="row   ">
+                        <div class="col col-2">
+                            <img src="./assets/img/booktrip/make.png" alt="" class="booktrip__img--icon" >
+
                         </div>
-                        <div class="col col-6 w-75 ps-5 opacity-50">
-                            <a href="" class="text-decoration-none">
+                        <div class="col col-9 booktrip__text ">
                                 <span class="fw-bold ">Make Payment</span>
                                 <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.  </p>
-                            </a>                            
-                        </div>
+                        </div>                        
                     </div>
-                    <div class="row align-items-center py-4 ">
-                        <div class="col col-1">
-                            <img src="./assets/img/booktrip/reach.png" alt="">
+                    <div class="row   ">
+                        <div class="col col-2">
+                            <img src="./assets/img/booktrip/reach.png" alt="" class="booktrip__img--icon" >
+
                         </div>
-                        <div class="col col-6 w-75 ps-5 opacity-50">
-                            <a href="" class="text-decoration-none">
+                        <div class="col col-9 booktrip__text ">
                                 <span class="fw-bold ">Reach Airport on Selected Date</span>
-                                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.  </p>
-                            </a>                            
-                        </div>
+                                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
+                        </div>                        
                     </div>
                 </div>
-                
-                <div class="col-lg-6 position-relative">
+                <div class="col-lg-6 d-none d-md-block position-relative">
                     <a href="">
-                        <img src="./assets/img/booktrip/booktrip.png" alt="" class="w-100  booktrip-item-img1">                    
+                        <img src="./assets/img/booktrip/booktrip.png" alt="" class="w-100 ">                    
 
                     </a>
                 </div>
@@ -287,7 +291,7 @@
 
     <!-- start-testimonials -->
     <section class="testimonials">
-        <div class="container pt-105">
+        <div class="container mt-105">
             <div class="row">
                 <div class="col-12 col-lg-6 py-4 ">
                     <div id="testimonials-item-controls" class="carousel slide testimonials-item" data-bs-ride="carousel">
@@ -299,19 +303,19 @@
                         <div class="carousel-inner w-100">
                             <div class="carousel-item active ">
                                 <div class="d-block w-100">
-                                    <span class="text-sub-heading">Testimonials</span>
-                                    <p class="text-heading">What people say about Us.</p>
+                                    <span class="testimonials__sub--heading">Testimonials</span>
+                                    <p class="testimonials__heading">What people say about Us.</p>
                                 </div>
                             </div>
                             <div class="carousel-item  ">
                                 <div class="d-block w-100">
-                                    <span class="text-sub-heading">Wissh all the best, Robert</span>
-                                    <p class="text-heading">Happy birthday and Happy new year !!!.</p>
+                                    <span class="testimonials__sub--heading">Wissh all the best, Robert</span>
+                                    <p class="testimonials__heading">Happy birthday and Happy new year !!!.</p>
                                 </div>                                
                             </div>
                             <div class="carousel-item  ">
-                                <span class="text-sub-heading">Supprise !!!</span>
-                                <p class="text-heading">Welcome to my landing page.</p>
+                                <span class="testimonials__sub--heading">Supprise !!!</span>
+                                <p class="testimonials__heading">Welcome to my landing page.</p>
                             </div>
                         </div>
                         
@@ -349,26 +353,25 @@
             </div>
         </div>
     </section>
-
     <!-- end-testimonials -->
 
     <!-- start-logos -->
     <section class="logos">
-        <div class="container pt-105 text-center">
+        <div class="container mt-105 text-center">
             <div class="row g-3 justify-content-center">
                 <div class="col-sm-12 col-lg-2 mb-3">
                     <img src="./assets/img/logos/axon.png" alt="" class="img-fluid ">
                 </div>
-                <div class="col-12 col-lg-2 mb-3">
+                <div class="col-sm-12 col-lg-2 mb-3">
                     <img src="./assets/img/logos/jetstar.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-12 col-lg-2 mb-3">
+                <div class="col-sm-12 col-lg-2 mb-3">
                     <img src="./assets/img/logos/expedia.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-12 col-lg-2 mb-3">
+                <div class="col-sm-12 col-lg-2 mb-3">
                     <img src="./assets/img/logos/quantas.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-12 col-lg-2 mb-3">
+                <div class="col-sm-12 col-lg-2 mb-3">
                     <img src="./assets/img/logos/alitalia.png" alt="" class="img-fluid">
                 </div>
                 
@@ -380,70 +383,66 @@
 
     <!-- start-subcribe -->
     <section class="subcribe">  
-        <div class="container pt-105 text-center position-relative ">
-            <div class="card text-center subcribe-bg px-200 py-80">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-lg-10">
-                        <h4 class="card-title opacity-50">Subscribe to get information, latest news and other interesting offers about Jadoo</h4>
+        <div class="container mt-105 position-relative  ">
+            <div class="subcribe__bg">
+                <h4 class="text-center subcribe__heading">Subscribe to get information, latest news and other interesting offers about Jadoo</h4>
+                
+                <div class=" btn-toolbar subcribe__form justify-content-center g-4" role="toolbar" aria-label="Toolbar with button groups">
+                    
+                    <div class=" col-auto input-group me-lg-4">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text subcribe__input--icon" id="subcribe__input-icon"><i class="bi bi-envelope "></i></div>
+                      </div>
+                      <input type="email" class="form-control" placeholder="Your email" aria-label="Input group example" aria-describedby="subcribe__input-icon">
+                    </div>
+                    <div class="col-auto" role="group" aria-label="First group">
+                        <button type="submit" class="btn btn-success"> Subcribe</button>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-5 py-2 p-0 form-floating border-0">
-                        <input type="email" class="form-control" id="subcribe-item-email" placeholder="name@example.com" >
-                        <label for="subcribe-item-email" class=""><i class="bi bi-envelope "></i> Your email</label>
-                    </div>
-                    <div class="col-12 col-md-3 py-2 position-relative d-flex align-items-center">
-                        <a href="#" class="btn btn-secondary vertical-center ">Subcribe</a>
-                    </div>
-                </div>
-                <img src="./assets/img/subcribe/vector.png" alt="" class="position-absolute subcribe-img">
-
             </div>
-            <img src="./assets/img/subcribe/img.png" alt="" class="subcribe-img-bg d-none d-lg-block">
+            <img src="./assets/img/subcribe/vector.png" alt="" class="position-absolute subcribe__img--vector d-none d-lg-block">
+            <img src="./assets/img/subcribe/img.png" alt="" class="subcribe__img--bg d-none d-lg-block">
         </div>
     </section>
    
-    <!-- end-subcribe -->
+    <!-- end-subcribe -->   
 
     <!-- start-footer -->
-
     <section class="footer">
-        <div class="container pt-105 ">
-            <div class="row d-flex align-items-md-center  ">
-                <div class="col-12 col-lg-3 mb-3">
-                    <a href="" class="fs-44 text-decoration-none text-black d-flex ">JADOO.</a>
-                    <ul class=" fs-13 list-unstyled opacity-50">
-                        <li><a href="">Book your trip in minute, get full Control for much longer. </a></li>
+        <div class="container pt-105   ">
+            <div class="row text-center text-lg-start  ">
+                <div class="col-12 col-lg-3 ">
+                    <strong href="" class="footer__brand   ">Jadoo.</strong>
+                    <ul class=" list-unstyled footer__brand--content">
+                        <li>Book your trip in minute, get full Control for much longer.</li>
                     </ul>
                 </div>
-                <div class="col-6 col-lg-2 mb-3">
-                    <h5 href="" class="fs-21 text-decoration-none text-black d-flex ">Company</h5>
-                    <ul class=" fs-18 mt-4 list-unstyled opacity-50">
-                        <li><a href="">About </a></li>
-                        <li><a href="">Careers </a></li>
-                        <li><a href="">Mobile </a></li>
-
+                <div class="col-12 col-lg-2 my-3">
+                    <strong href="" class="footer__about    ">Company</strong>
+                    <ul class=" footer__desc  list-unstyled ">
+                        <li>About</li>
+                        <li>Careers</li>
+                        <li>Mobile</li>
                     </ul>
                 </div>
-                <div class="col-6 col-lg-2 mb-3">
-                    <a href="" class="fs-21 text-decoration-none text-black d-flex ">Contact</a>
-                    <ul class=" fs-18 mt-4 list-unstyled opacity-50">
-                        <li><a href="">Help/FAQ </a></li>
-                        <li><a href="">Press </a></li>
-                        <li><a href="">Affilates </a></li>
-
+                <div class="col-12 col-lg-2 my-3">
+                    <strong href="" class=" footer__about   ">Contact</strong>
+                    <ul class=" footer__desc  list-unstyled ">
+                        <li>Help/FAQ</li>
+                        <li>Press</li>
+                        <li>Affilates</li>
                     </ul>
                 </div>
-                <div class="col-6 col-lg-2 mb-3">
-                    <a href="" class="fs-21 text-decoration-none text-black d-flex ">More</a>
-                    <ul class=" fs-18 mt-4 list-unstyled opacity-50">
-                        <li><a href="">Airlinefees </a></li>
-                        <li><a href="">Airline </a></li>
-                        <li><a href="">Low fare tips </a></li>
+                <div class="col-12 col-lg-2 my-3">
+                    <strong href="" class="footer__about   ">More</strong>
+                    <ul class=" footer__desc  list-unstyled ">
+                        <li>Airlinefees</li>
+                        <li>Airline</li>
+                        <li>Low fare tips</li>
                     </ul>
                 </div>
-                <div class="col-6 col-lg-3 mb-3 ">
-                    <div class="d-flex flex-row ">
+                <div class="col-12 col-lg-3 ">
+                    <div class="d-flex flex-row justify-content-center justify-content-lg-start ">
                         <a href="">
                             <img src="./assets/img/footer/facebook.png" alt="">
                         </a>
@@ -455,7 +454,7 @@
                             <img src="./assets/img/footer/twitter.png" alt="">
                         </a>
                     </div>
-                    <p class="fs-20 opacity-50 ">
+                    <p class="footer__content--app  ">
                         Discover our app
                     </p>
                     <div class="btn-group ">
@@ -463,7 +462,7 @@
                         <a href="#" class="btn p-0"><img src="./assets/img/footer/App Store.png" alt=""></a>
                     </div>
                 </div>
-                <div class="row text-lg-center opacity-50">
+                <div class=" footer__content--end">
                     <P>All rights reserved@jadoo.co</P>
                 </div>
             </div> 

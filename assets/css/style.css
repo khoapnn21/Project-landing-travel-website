@@ -11,10 +11,16 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 /* common */
 
 .f-Poppins {
     font-family: 'Poppins', sans-serif;
+}
+
+.f-OpenSans {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .f-Volkhov {
@@ -96,91 +102,166 @@ body {
     width: 80px !important;
 }
 
+.testimonials__sub--heading,
+.booktrip__sub-heading,
+.destinations__sub-heading,
+.service__sub-heading {
+    color: #5E6282;
+    font-size: 18px;
+}
 
+.testimonials__heading,
+.booktrip__heading,
+.service__heading,
+.destinations__heading {    
+    margin-top: 4px;
+    color: #14183E;
+    font-family: 'Volkhov', serif;
+    font-size: 50px;
+}
 
+.destinations__text--time {
+    color: #5E6282;
+    font-size: 16px;
+}
 
-
-
-
-
-
-.hero {
-    /* height: 1000px; */
-    
+.row + .row {
+    margin-top: 48px;
 
 }
 
-.header {
-    position: relative;
+.btn + .btn {
+    /* margin-top: 16px; */
 }
 
-.header .header-img {    
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-size: cover;
-    background-position: left;
-    width: 100%;
-    height: 700px;
-    z-index: -1;
+
+@media (max-width: 739px) {
+    .hero__heading{
+        font-size: 44px;
+    }
+
+    .subcribe__heading {
+        font-size: 12px !important;
+    }
 }
+
+@media (min-width: 740px) and (max-width: 1024px) {
+    .hero__heading{
+        font-size: 54px;
+    }
+
+    .subcribe__heading {
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width: 1025px) {
+    .hero__heading{
+        font-size: 84px;
+    }
+
+    .subcribe__heading {
+        font-size: 33px !important;
+    }
+}
+
+
 
 
 /* hero */
 
-.header-content {
+
+.hero {
     position: relative;
 }
 
-.header-content .underline {
+.hero__img--bg{    
     position: absolute;
-    top: 120px; 
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+    
+}
+
+.hero__item--content {
+    
+}
+
+.hero__sub-heading {
+    color:#DF6951;
+    font-size: 20px;
+}
+
+.hero__heading {
+    color:#181E4B;
+    position: relative;
+    font-family: 'Volkhov', serif;
+
+}
+
+
+
+.hero__img--underline {
+    position: absolute;
+    top: 90px; 
     right: -80px;
     z-index: -1;
+}
+
+.hero .bi-play-circle-fill {
+    color: #DF6951;
+    margin-right: 20px;
+    border-radius: 30px;
 }
 
 
 
 /* service */
 
-.text-sub-heading {
-    opacity: 0.5;
-    font-size: 18px;
+
+
+
+
+.service .card {
+    width: 250px;
+    height: 300px;
 }
 
-.text-heading {
-    margin-top: 4px;
-    font-family: 'Volkhov', serif;
-    font-size: 50px;
-}
-
-.service-heading {
+.service__item {
     position: relative;
 }
 
-.service-item:hover {
-    transform: scale(1.2);
+.service__item:hover {
+    transform: scale(1.2);  
 }
 
-.service .service-img {
-    position: absolute;
-    top: 105;
-    right: -80px;
-}
-
-.red-hover {
-    width: 100px;
-    height: 100px;
+.service__img--red {
+    width: 80px;
+    height: 80px;
     position: absolute;
     display: none;
-    left: -50px;
-    bottom: -50px;
+    left: -20px;
+    bottom: -20px;
     z-index: -1;
 }
 
-.service-item:hover .red-hover {
-    display: block;
+.service__item:hover .service__img--red  {
+    display: block;    
+}
+
+.service__item:hover .card {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    
+}
+
+.service__img-bg {
+    position: absolute;
+    top: 105;
+    right: -80px;
 }
 
 /* destination */
@@ -191,8 +272,7 @@ body {
 }
 
 .destinations-item {
-    border-radius: 15px;
-
+    border-radius: 30px;
 }
 
 .destinations-img-italy {
@@ -201,24 +281,18 @@ body {
 
 }
 
-.destinations-img-italy:hover {
-    opacity: 0.5;
-}
+
 
 .destinations-img-london {
     background: url(../img/destinations/london.png) center/ cover no-repeat;
     height: 480px;
 }
-.destinations-img-london:hover {
-    opacity: 0.5;
-}
+
 .destinations-img-europe {
     background: url(../img/destinations/europe.png) center/ cover no-repeat;
     height: 480px;
 }
-.destinations-img-europe:hover {
-    opacity: 0.5;
-}
+
 
 .destinations-item-info {
     background-color: #fff;    
@@ -226,7 +300,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 25px 25px;
 
 }
 
@@ -241,6 +315,17 @@ body {
 
 /* booktrip */
 .booktrip {
+}
+
+.booktrip__img--icon {
+    width: 50px;
+    height: 50px;
+    padding: 0 !important;
+}
+
+.booktrip__text {
+    color: #5E6282;
+    
 }
 
 /* testimonials */
@@ -263,34 +348,92 @@ body {
 /* subcribe */
 
 .subcribe {
-    height: auto;
 
 }
 
-.subcribe-bg {
-    background-color: #DFD7F9;
+.subcribe__bg {
+    background-color: #f8f6fe;
     border-radius: 100px 10px 10px;
+    border:none;
+    padding: 80px 150px;
 }
 
-.subcribe-img {
+.subcribe .subcribe__heading {
+    color: #5E6282;
+
+}
+
+.subcribe__form {
+    margin: 70px auto 0;
+}
+
+.subcribe__form .form-control {
+}
+
+.subcribe__input--icon {
+    background-color: transparent;
+}
+
+.subcribe .subcribe__input--email {
+    width: 75% !important;
+}
+
+.subcribe__img--vector {
     top: -30px;
     right: -30px;
 }
 
-.subcribe-img-bg {
+.subcribe__img--bg {
     position: absolute;
-    right: -30px;
-    top: 300px;
+    right: -40px;
+    bottom: -100px;
     z-index: -1;
+}
+
+/* footer */
+
+.footer {
+}
+
+.footer__brand {
+    font-size: 44px;
+    color: #181E4B;
+}
+
+.footer__brand--content {
+    font-size: 13px;
+    color: #5E6282;
+
+}
+
+.footer__about {
+    font-size: 21px;
+}
+
+.footer__desc {
+    font-size: 18px;
+    color: #5E6282;
+    margin-top: 35px;
+}
+
+.footer__content--app {
+    font-size: 20px;
+    color: #5E6282;
+
+}
+
+.footer__content--end {
+    font-size: 14px;
+    color: #5E6282;
+    text-align: center !important;
+    margin-top: 70px;
 }
 
 .footer ul {
     list-style-type: none;
 }
 
-.footer a {
-    text-decoration: none;
-}
+
 
 
 
