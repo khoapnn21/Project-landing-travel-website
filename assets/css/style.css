@@ -143,6 +143,15 @@ body {
     .subcribe__heading {
         font-size: 12px !important;
     }
+
+    .subcribe__bg {
+        padding: 40px 60px !important;
+    }
+
+    .subcribe__form {
+        margin: 30px auto 0 !important;
+    }
+
 }
 
 @media (min-width: 740px) and (max-width: 1024px) {
@@ -152,6 +161,14 @@ body {
 
     .subcribe__heading {
         font-size: 20px !important;
+    }
+
+    .subcribe__bg {
+        padding: 60px 120px;
+    }
+
+    .subcribe__form {
+        margin: 50px auto 0 !important;
     }
 }
 
@@ -163,6 +180,9 @@ body {
     .subcribe__heading {
         font-size: 33px !important;
     }
+
+    
+
 }
 
 
@@ -356,12 +376,12 @@ body {
     background-color: #f8f6fe;
     border-radius: 100px 10px 10px;
     border:none;
-    padding: 80px 150px;
+    padding: 80px 160px;
 }
 
 .subcribe .subcribe__heading {
     color: #5E6282;
-
+    width: 100%;
 }
 
 .subcribe__form {
